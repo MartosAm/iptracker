@@ -2,6 +2,9 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
+
+const text = "Hola Mundo";  
+console.log(text);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -25,4 +28,4 @@ app.listen(PORT, () => {
 });
 
 
-const text = "Hola Mundo";  
+
